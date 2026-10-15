@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper & Pages | Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">paper<span>&</span>pages.</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#books" class="nav-button">Explore Books ↗</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+
+            <h1>Between the pages,<br>
+                <span>find yourself.</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover stories that inspire, worlds that amaze,
+                and books that stay with you long after the last page.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#books" class="btn-primary">Browse Collection →</a>
+                <a href="#about" class="btn-secondary">Our Story</a>
+            </div>
+
+            <div class="hero-note">
+                <span>✦</span> Curated reads for curious minds
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1000&q=85"
+                alt="Beautiful collection of books"
+            >
+            <div class="image-label">
+                <span>THE JOY OF READING</span>
+                <p>A little escape, one page at a time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div>✦ Carefully Curated Books</div>
+        <div>♡ Stories for Every Mood</div>
+        <div>✉ A Community of Readers</div>
+    </section>
+
+    <!-- Featured Books -->
+    <section class="books-section" id="books">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">A FEW OF OUR FAVORITES</p>
+                <h2>Books worth <span>getting lost in.</span></h2>
+            </div>
+            <a href="#categories" class="view-all">Discover more ↗</a>
+        </div>
+
+        <div class="book-grid">
+
+            <article class="book-card">
+                <div class="book-image">
+                    <img src="https://covers.openlibrary.org/b/id/8231856-L.jpg"
+                         alt="The Great Gatsby book cover">
+                    <span class="tag">CLASSIC</span>
+                </div>
+                <p class="book-category">CLASSIC FICTION</p>
+                <h3>The Great Gatsby</h3>
+                <p class="author">F. Scott Fitzgerald</p>
+                <div class="book-bottom">
+                    <span class="price">Rs. 850</span>
+                    <a href="#about" class="add-button" aria-label="Explore The Great Gatsby">↗</a>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <div class="book-image">
+                    <img src="https://covers.openlibrary.org/b/id/10521270-L.jpg"
+                         alt="Pride and Prejudice book cover">
+                    <span class="tag">BELOVED</span>
+                </div>
+                <p class="book-category">ROMANCE</p>
+                <h3>Pride and Prejudice</h3>
+                <p class="author">Jane Austen</p>
+                <div class="book-bottom">
+                    <span class="price">Rs. 950</span>
+                    <a href="#about" class="add-button" aria-label="Explore Pride and Prejudice">↗</a>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <div class="book-image">
+                    <img src="https://covers.openlibrary.org/b/id/10523338-L.jpg"
+                         alt="Little Women book cover">
+                    <span class="tag">READER'S PICK</span>
+                </div>
+                <p class="book-category">FICTION</p>
+                <h3>Little Women</h3>
+                <p class="author">Louisa May Alcott</p>
+                <div class="book-bottom">
+                    <span class="price">Rs. 1,100</span>
+                    <a href="#about" class="add-button" aria-label="Explore Little Women">↗</a>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <div class="book-image">
+                    <img src="https://covers.openlibrary.org/b/id/8231996-L.jpg"
+                         alt="The Alchemist book cover">
+                    <span class="tag">POPULAR</span>
+                </div>
+                <p class="book-category">INSPIRATION</p>
+                <h3>The Alchemist</h3>
+                <p class="author">Paulo Coelho</p>
+                <div class="book-bottom">
+                    <span class="price">Rs. 1,250</span>
+                    <a href="#about" class="add-button" aria-label="Explore The Alchemist">↗</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories-section" id="categories">
+        <p class="eyebrow">FIND YOUR NEXT FAVORITE</p>
+        <h2>What are you in the mood for?</h2>
+
+        <div class="category-grid">
+            <a href="#books" class="category-card">
+                <span>01</span>
+                <h3>Fiction</h3>
+                <p>Worlds beyond your own ↗</p>
+            </a>
+
+            <a href="#books" class="category-card">
+                <span>02</span>
+                <h3>Romance</h3>
+                <p>For the hopeless romantics ↗</p>
+            </a>
+
+            <a href="#books" class="category-card">
+                <span>03</span>
+                <h3>Mystery</h3>
+                <p>Turn pages, solve secrets ↗</p>
+            </a>
+
+            <a href="#books" class="category-card">
+                <span>04</span>
+                <h3>Self Growth</h3>
+                <p>A better you, one book at a time ↗</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about-section" id="about">
+        <div class="about-icon">❝</div>
+        <p class="eyebrow">MORE THAN JUST BOOKS</p>
+        <h2>For the love of stories<br>and the people who read them.</h2>
+        <p>
+            Paper & Pages is a little corner of the world for big imaginations.
+            We believe every reader deserves a story that feels like it was
+            written just for them.
+        </p>
+        <a href="#books" class="btn-primary">Find Your Story →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">paper<span>&</span>pages.</a>
+        <p>Made for readers, dreamers, and midnight page-turners.</p>
+        <p class="copyright">© 2026 Paper & Pages. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
